@@ -1,1 +1,1 @@
-Start package for [Bulma](http://bulma.io)
+play with landing page layout

@@ -1,9 +1,19 @@
 .navbar {
-  padding-top: 4rem; }
+  padding-top: 1rem; }
   .navbar .navbar-brand {
     padding-left: 6rem; }
   .navbar .navbar-end {
     padding-right: 6rem; }
+
+.intro-hero {
+  background-image: url(assets/coding-gif.gif);
+  height: 100%;
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */ }
 
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
 @keyframes spinAround {

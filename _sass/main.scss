@@ -42,12 +42,13 @@ $navbar-item-color: grey;
   }
 }
 
-.intro-hero {
-    background-image:  src(assets/coding-gif.gif);
+.hero-bg {
+    background-image:  url("/assets/coding-gif.gif");
     height: 100%;
     background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+ background-size: contain; /* Resize the background image to cover the entire container */
+//    position: relative;
 }
 
 
